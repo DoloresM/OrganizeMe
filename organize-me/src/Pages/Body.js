@@ -7,9 +7,14 @@ import BodyContent from "./Home.js";
 // console.log(products[0].id)
 
 
+// <BodyContent.Consumer>
+// {
+//     context =>{
+//         return <h1>hello</h1>
+//     }
+// }
 
-
-
+// </BodyContent.Consumer>
 
 
     export const SectionBody = ()=>{
@@ -34,19 +39,15 @@ import BodyContent from "./Home.js";
     
     )
   }
+
+
   
 
 export default function Body() {
   
     return (
-        <BodyContent.Consumer>
-            {
-                context =>{
-                    return <h1>hello</h1>
-                }
-            }
-          
-        </BodyContent.Consumer>
+        <h1>online!</h1>
+
     );
   }
   

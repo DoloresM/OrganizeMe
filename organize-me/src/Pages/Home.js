@@ -17,7 +17,7 @@ export const BodyContent = createContext();
 
 
 
-function Home() {
+function Home()  {
   
   return (
     <div className="main">
