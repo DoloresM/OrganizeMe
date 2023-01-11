@@ -1,43 +1,95 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 
+*{
+  margin:0;
+  background-color: whitesmoke;
+}
 
+/* NAVIGATION BAR */
+nav{
+  margin-top: 0;
+  height: 12vh;
+}
 nav h1{
-  
     font-family: 'Josefin Sans', cursive;
 }
+
 
 nav ul{
   display: flex;
   list-style: none;
   flex-flow: row wrap;
-  background-color: black;
+  /* background-color: black; */
 }
 
 nav ul li{
-  flex-basis: 6%;
+  flex-basis: 8%;
   color: brown;
   justify-content: center;
   text-align: center;
-  background: gray;
-  align-items: baseline;
+  /* background: gray; */
+  align-items: center;
+  padding-top: 1.5rem;
+  text-decoration: none;
+  font-size: 18px;
 }
 nav ul li:first-child{
-  margin-right: 30em;
+  margin-right: 25rem;
+  padding: 0;
+  font-size: 22px;
 }
 
+
+nav ul li:last-child{
+  margin-left: 25rem;
+}
+.link-react{ /*targets react link component */
+  text-decoration: none;
+}
+
+/* HEADER SECTION */
 
 header{
   display: flex;
   flex-flow: row wrap;
-  background-color: black;
-  height: 80vh;
+  background-color: gray;
+  padding-top: 7rem;
+  height: 60vh;
+  margin:0 auto;
+  width: 90%;
+  height: 65vh;
+  margin-bottom: 5rem;
 }
 
 header div{
-  flex-basis: 40%;
+  flex-basis: 50%;
   background-color: brown;
   justify-content: center;
-  text-align: center;
+  /* text-align: center; */
+}
+header p{
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+header button{
+  height: 40px;
+  width: 120px;
+  margin-right: 2rem;
+  background-color: black;
+  color: whitesmoke;
+  border-radius: 30px;
+font-size: medium;
+}
+
+header div section {
+  background-image: url("https://images.unsplash.com/photo-1585435465945-bef5a93f8849?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80");
+  height: 200px;
+  width: 175px;
+  background-size: contain;
+background-repeat: no-repeat;
+margin:0;
+background-color: black;
 }
 .section-body{
   display: flex;
@@ -45,23 +97,16 @@ header div{
   background: brown;
 }
 .section-body section{
-  flex-basis: 40%;
+  flex-basis: 50%;
   background-color: gray;
 }
-.section-body section img{
+
+/* .section-body section img{
   max-width: 100%;
   max-height: 100%;
-}
-footer{
-  display: flex;
-  flex-flow: row wrap;
-  background: brown
-}
-footer div{
-  flex-basis: 30%;
-  background: black;
-  color: gray;
-}
+} */
+
+
 
 form{
   padding: 10%;
@@ -73,6 +118,18 @@ form input{
   display: block;
   padding: 1em;
   border-radius: 30px;
+}
+
+footer{
+  display: flex;
+  flex-flow: row wrap;
+  background: brown;
+  height: 5vh;
+}
+footer div{
+  flex-basis: 30%;
+  background: black;
+  color: gray;
 }
 
 
