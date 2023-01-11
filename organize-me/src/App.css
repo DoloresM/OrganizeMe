@@ -27,7 +27,6 @@ nav ul li{
   color: brown;
   justify-content: center;
   text-align: center;
-  /* background: gray; */
   align-items: center;
   padding-top: 1.5rem;
   text-decoration: none;
@@ -36,7 +35,7 @@ nav ul li{
 nav ul li:first-child{
   margin-right: 25rem;
   padding: 0;
-  font-size: 22px;
+  font-size: px;
 }
 
 
@@ -52,20 +51,24 @@ nav ul li:last-child{
 header{
   display: flex;
   flex-flow: row wrap;
-  background-color: gray;
+  /* background-color: gray; */
   padding-top: 7rem;
   height: 60vh;
   margin:0 auto;
   width: 90%;
   height: 65vh;
   margin-bottom: 5rem;
+  border-radius: 1px solid black;
+}
+
+header h1{
+  margin-bottom: 1rem;
 }
 
 header div{
   flex-basis: 50%;
   background-color: brown;
   justify-content: center;
-  /* text-align: center; */
 }
 header p{
   margin-top: 3rem;
@@ -79,34 +82,44 @@ header button{
   background-color: black;
   color: whitesmoke;
   border-radius: 30px;
-font-size: medium;
+  font-size: medium;
 }
-
-header div section {
-  background-image: url("https://images.unsplash.com/photo-1585435465945-bef5a93f8849?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80");
+/* 
+HEADER SECTION IMAGES */
+#header-image3{  /*pad*/
+  background-image: url("https://images.unsplash.com/photo-1531346680769-a1d79b57de5c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80");
   height: 200px;
-  width: 175px;
-  background-size: contain;
+  width: 150px;
+  background-size: 150px;
+  background-repeat: no-repeat;
+  background-color: black;
+  border-radius: 25px;
+}
+#header-image1{ /* mug */
+  background-image: url("https://images.unsplash.com/photo-1613579917953-d35e6b72d32b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+  height: 151px;
+  width: 155px;
+  background-size: 225px;
 background-repeat: no-repeat;
-margin:0;
 background-color: black;
+border-radius: 50%;
+
+}
+#header-image2{ /*phone*/
+  background-image: url("https://images.unsplash.com/photo-1564583138697-34f7b7488f94?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2069&q=80");
+  height: 175px;
+  width: 225px;
+  background-size: 260px ;
+background-repeat: no-repeat;
+background-color: green;
+border-radius: 25px;
+
 }
 .section-body{
   display: flex;
   flex-flow: row wrap;
   background: brown;
 }
-.section-body section{
-  flex-basis: 50%;
-  background-color: gray;
-}
-
-/* .section-body section img{
-  max-width: 100%;
-  max-height: 100%;
-} */
-
-
 
 form{
   padding: 10%;
