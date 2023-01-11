@@ -1,4 +1,5 @@
 import Nav from './Nav.js';
+import Footer from './Footer.js';
 
 {/* <form onSubmit={this.handleSubmit}>
 <label>
@@ -11,31 +12,72 @@ import Nav from './Nav.js';
  const SignIn = ()=>{
     return(
         <>
-        <Nav/>
-        <form >
-        <label>
-          Name:
-          <input type="text" required />
-        </label>
-        <label>
-          Email:
-          <input type="email" required  />
-        </label>
-        <label>
-        <label>
-          Password:
-          <input type="date" required  />
-        </label>
-        <label>
-          confirm passoword:
-          <input type="date" required  />
-        </label>
-          Date of Birth:
-          <input type="date" required  />
-        </label>
+          <Nav/>
+            <form action="" methhod="POST">
+              <div>
+                <label for="firstName">
+                  First:
+                  <input type="text" name="firstName"required />
+                </label>
+              </div>
+              <div>
+                <label for="lastName">
+                  Last:
+                  <input type="text" name="lastName"required />
+                </label>
+              </div>
+              <div>
+                <label for="userName">
+                  Username:
+                  <input type="text" name="userName"required />
+                </label>
+              </div>
+              <div>
+                <label for="email">
+                  Email:
+                  <input type="email" name="email" required  />
+                </label>
+              </div>
+              <div>
+                <label for="email">
+                  Confirm Email:
+                  <input type="email" name="email" required  />
+                </label>
+              </div>
+              <div>
+                <label for="password">
+                  Password:
+                  <input type="password" name="password" required  />
+                </label>
+              </div>
+              <div>
+                <label for="confirmPassword">
+                confirm passoword:
+                <input type="password" name="confirmPassword" required  />
+                </label>
+              </div>
+              <div>
+                <label for="birthDate">
+                Date of Birth:
+                <input type="date" name="birthDate" required  />
+                </label>
+              </div>
+              <div>
+                <input type="submit" value="create account" />
+              </div>
 
-        <input type="submit" value="Submit" />
-      </form>
+
+
+
+              
+
+
+
+
+
+            
+          </form>
+        <Footer/>
         </>
         
     )

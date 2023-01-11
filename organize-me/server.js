@@ -1,6 +1,7 @@
 const express = require('express');
 const mongoose = require("mongoose");
 const session = require("express-session");
+const app = express(); //Creating express application
 
 //DATABASE SETUP
 mongoose.connect(
@@ -9,10 +10,22 @@ mongoose.connect(
   );
 
 //Package documentation - https://www.npmjs.com/pakcage/connect-mongo
-const MongoStore = require("connect-mongo")(session)
+const MongoStore = require("connect-mongo");
 
-//Creating express application
-const app = express(); 
+
+
+
+
+// app.use(session({
+//     secret: 'foo',
+//     store: MongoStore.create(options)
+//   }));
+
+  app.use(session({
+    store: MongoStore.create({ mongoUrl: 'mongodb://localhost:27017/organize-me/' })
+  }));
+
+
 
 //setting up database
 const dbString = "mongodb://localhost:27017/organize-me/";
@@ -37,7 +50,7 @@ const sessionStore = new MongoStore ({
     // configuration -- express-session resource: https://www.npmjs.com/package/express-session
     // here the session middleware is getting passed to the express instance, in which the opject 
         // being passed represents the options
-    // Sesssion Store Implementation - represents iformation about a client/ user moving across the site - in which the databasae store the data
+    // Sesssion Store Implementation - represents iformation\\\ about a client/ user moving across the site - in which the databasae store the data
 app.use(session({
     secret: "some secret",
     resave: false,
