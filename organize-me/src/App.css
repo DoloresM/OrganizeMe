@@ -9,6 +9,7 @@
 nav{
   margin-top: 0;
   height: 12vh;
+  background-color: #ffe3e3;
 }
 nav h1{
     font-family: 'Josefin Sans', cursive;
@@ -136,19 +137,62 @@ left: 100px;
 position: relative;
 
 }
-/* BODY  */
+/* !! BODY !! */
 .banner{
   margin: 4rem auto;
-  padding: 0 4rem 0 4rem;
+  padding: 0 10rem 0 10rem;
   text-align: center;
+  height: 20vh;
 }
 .banner h3{
   font-size: 30px;
 }
 
+/* !! BODY - Main Sections !! */
 .section-body{
   display: flex;
   flex-flow: row wrap;
+}
+
+/* !! BODY - Download ads !! */
+
+.download-section{
+  height: 70vh;
+  background-color: #790928;
+}
+
+.slideIcons{
+  display: flex;
+  flex-flow: row wrap;
+  background-color: #ffe3e3;
+  height: 35vh;
+}
+
+/* !! BODY - Partnerships !! */
+.sectionTitle{
+  height: 35vh;
+}
+
+
+/* !! BODY - Reviews !! */
+.reviews{
+  height: 45hv;
+  background-color: #ffe3e3;
+}
+
+.appIcons {
+  margin-top: 1rem;
+  height: 25vh;
+  background-color: #ffe3e3;
+  display: flex;
+  flex-flow: row wrap;
+}
+.appIcons div {
+  flex-flow: row wrap;
+  height: 10vh;
+  width: 35vw;
+  background-color: whitesmoke;
+  margin: 10px;
 }
 
 form{
