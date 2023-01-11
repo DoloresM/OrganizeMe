@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function Nav() {
     return (
-      <nav>
+      <nav className="main-coloring">
             
         <ul>
             <li>

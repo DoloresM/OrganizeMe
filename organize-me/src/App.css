@@ -2,7 +2,7 @@
 
 *{
   margin:0;
-  background-color: whitesmoke;
+  /* background-color: whitesmoke; */
 }
 
 /* NAVIGATION BAR */
@@ -48,26 +48,39 @@ nav ul li:last-child{
 
 /* HEADER SECTION */
 
-header{
+.main-coloring{
+  background: rgb(255,210,210);
+background: linear-gradient(247deg, rgba(255,210,210,0.592874649859944) 0%, rgba(121,9,40,0.8202103758169934) 10%);
+}
+.headings{
+  /* margin:0 auto; */
+  width: 100%;
   display: flex;
   flex-flow: row wrap;
-  /* background-color: gray; */
-  padding-top: 7rem;
-  height: 60vh;
-  margin:0 auto;
-  width: 90%;
-  height: 65vh;
+  padding-top: 2rem;
+  padding-left: 3rem;
+  height: 75vh;
+  width: 100%;
   margin-bottom: 5rem;
   border-radius: 1px solid black;
+}
+header{
+  /* display: flex;
+  flex-flow: row wrap;
+  padding-top: 2rem;
+  height: 75vh;
+  width: 100%;
+  margin-bottom: 5rem;
+  border-radius: 1px solid black; */
 }
 
 header h1{
   margin-bottom: 1rem;
+  font-size: 60px;
 }
 
 header div{
   flex-basis: 50%;
-  background-color: brown;
   justify-content: center;
 }
 header p{
@@ -92,8 +105,10 @@ HEADER SECTION IMAGES */
   width: 150px;
   background-size: 150px;
   background-repeat: no-repeat;
-  background-color: black;
+  /* background-color: black; */
   border-radius: 25px;
+  position: relative;
+  left: 400px;
 }
 #header-image1{ /* mug */
   background-image: url("https://images.unsplash.com/photo-1613579917953-d35e6b72d32b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
@@ -103,6 +118,8 @@ HEADER SECTION IMAGES */
 background-repeat: no-repeat;
 background-color: black;
 border-radius: 50%;
+position: relative;
+left: 300px;
 
 }
 #header-image2{ /*phone*/
@@ -113,6 +130,8 @@ border-radius: 50%;
 background-repeat: no-repeat;
 background-color: green;
 border-radius: 25px;
+left: 100px;
+position: relative;
 
 }
 .section-body{
