@@ -1,8 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 
+
+:root {
+  --black-chocolate: #211103;
+  --black-bean: #3D1308;
+  --burgundy: ##7B0D1E;
+  --ruby: #9F2042;
+  --lavblush: #F8E5EE;
+}
+
 *{
   margin:0;
   /* background-color: whitesmoke; */
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  color: #211103;
 }
 
 /* NAVIGATION BAR */
@@ -143,6 +158,7 @@ position: relative;
   padding: 0 10rem 0 10rem;
   text-align: center;
   height: 20vh;
+  background-color: #FCF6F6;
 }
 .banner h3{
   font-size: 30px;
