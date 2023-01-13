@@ -1,3 +1,10 @@
 https://unsplash.com/photos/gpf9waJ_MqY (notebooks in hand)
 https://unsplash.com/photos/q8ZgKZutttE (dream/plan/act scrabble)
 https://images.unsplash.com/photo-1567607788636-84d0ed9ec1eb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fG9yZ2FuaXplfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60(organize clock)
+
+Site Audit:
+1. Navbar: 
+    -responsive design:
+        > hamburger menu
+        > header image resizing/ hidden
+        > header button repositioning
