@@ -2,7 +2,15 @@ https://unsplash.com/photos/gpf9waJ_MqY (notebooks in hand)
 https://unsplash.com/photos/q8ZgKZutttE (dream/plan/act scrabble)
 https://images.unsplash.com/photo-1567607788636-84d0ed9ec1eb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fG9yZ2FuaXplfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60(organize clock)
 
-Site Audit:
+blog stock IMAGES:
+https://images.unsplash.com/photo-1597740985671-2a8a3b80502e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80
+https://images.unsplash.com/photo-1613290907219-ee677464bd45?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80
+https://images.unsplash.com/photo-1512428559087-560fa5ceab42?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cGhvbmV8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60
+https://images.unsplash.com/photo-1670272505340-d906d8d77d03?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80
+https://images.unsplash.com/photo-1532356884227-66d7c0e9e4c2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80
+https://images.unsplash.com/flagged/photo-1574164908900-6275ca361157?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1035&q=80
+
+SITE Audit:
 1. Navbar: 
     -responsive design:
         > hamburger menu
@@ -24,6 +32,7 @@ Site Audit:
     -responsive design:
         > section resizing
         > testimonial card rotation
+        > description text available before "read more" link
     -download icons (app store)
 6.Partnership 
     - responsive layout (flex)
