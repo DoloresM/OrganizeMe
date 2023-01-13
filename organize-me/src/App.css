@@ -239,26 +239,32 @@ position: relative;
   margin: 2rem;
   background-color: white;
   text-align: center;
+  padding: 2rem;
 }
 
-.body-post h4 {
-  margin: 1rem 0;
+.body-blog h4 {
   font-size: 26px;
-  color: green;
   color: var(--ruby);
+  background-color: green;
+}
+
+.body-blog p {
+  padding: 1rem;
 }
 
 .body-post .post-pic {
-max-width:50%;
+max-width:100%;
 max-height:50%;
 overflow: hidden;
-
+margin-bottom: 1rem;
 
 }
 .body-post .post-pic img{
 max-width:100%;
 max-height:100%;
 object-fit: cover;
+
+
 }
 
 .slideIcons{
