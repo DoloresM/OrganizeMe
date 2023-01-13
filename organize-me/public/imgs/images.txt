@@ -6,5 +6,32 @@ Site Audit:
 1. Navbar: 
     -responsive design:
         > hamburger menu
+        > component transitions
+2. Header: 
+    -responsive design:
         > header image resizing/ hidden
         > header button repositioning
+3. Banner: 
+    -responsive design:
+        > section resizing
+4. Info Sectionals : 
+    -layout: flex & resize image
+    -responsive design:
+        > section resizing
+5. Download/ Blogs  : 
+    -layout: flex & resize image
+    - carousel layout
+    -responsive design:
+        > section resizing
+        > testimonial card rotation
+    -download icons (app store)
+6.Partnership 
+    - responsive layout (flex)
+        > company logo  (flex)
+7. Reviews/ testimony 
+    - responsive layout (flex)
+        > company logo  (flex)
+8. Footer
+    - responsive layout (flex)
+        > company info
+      
