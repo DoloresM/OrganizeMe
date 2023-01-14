@@ -1,7 +1,7 @@
 const BodyPost = ()=>{
     return(
-        <div className="body-blog"> 
-            <div className="body-post">
+        <div className="body-post"> 
+            <div>
                 <h4>Title</h4>
                 <p>Lorem ipsum dolor sit amet.</p>
                 <div className="post-pic">
