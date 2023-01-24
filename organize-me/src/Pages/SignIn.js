@@ -68,7 +68,7 @@ import Footer from './Footer.js';
                 <input type="submit" value="create account" />
               </div>
           </form>
-          <button><Link className="form-button" to="/Dashboard/DashHome">View Dashboard</Link></button>
+          <button><Link className="form-button" to="/Dashboard/Home">View Dashboard</Link></button>
         <Footer/>
         </>
         

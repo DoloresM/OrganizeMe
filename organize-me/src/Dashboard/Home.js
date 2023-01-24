@@ -1,7 +1,7 @@
 import {Link} from "react-router-dom";
 import Nav from "../Pages/Nav.js";
 
-const DashHome = ()=>{
+const Home = ()=>{
     return(
         <div className="dash-home">
             <Nav/>
@@ -21,9 +21,9 @@ const DashHome = ()=>{
                     <button><Link className="link-services" to="">Project</Link></button>
                     </div>
                 </div>
-                <button><Link className="link-services" to="">View Dashboad</Link></button>
+                <button><Link className="link-services" to="/Dashboard/Board/Dashboard">View Dashboad</Link></button>
             </div>
         </div>
     )
     };
- export default DashHome; 
+ export default Home; 
