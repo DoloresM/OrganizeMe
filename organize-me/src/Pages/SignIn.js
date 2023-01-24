@@ -1,4 +1,6 @@
+import {Link} from "react-router-dom";
 import Nav from './Nav.js';
+// import DashHome from "./Dashboard/DashHome.js"
 import Footer from './Footer.js';
 
 {/* <form onSubmit={this.handleSubmit}>
@@ -65,18 +67,8 @@ import Footer from './Footer.js';
               <div>
                 <input type="submit" value="create account" />
               </div>
-
-
-
-
-              
-
-
-
-
-
-            
           </form>
+          <button><Link className="form-button" to="/Dashboard/DashHome">View Dashboard</Link></button>
         <Footer/>
         </>
         
