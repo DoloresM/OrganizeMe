@@ -3,7 +3,7 @@ function Header() {
     return (
         
     <header className="main-coloring">
-        <div className="headings">
+        <div className="headings content">
             <div>
                 <h1>Headings and Title</h1>
                 <h1>Headings And</h1>

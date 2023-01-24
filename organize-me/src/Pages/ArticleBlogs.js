@@ -1,7 +1,7 @@
 import Articles from "./Articles.js"; 
 const ArticleBlogs = () =>{
     return(
-        <div>
+        <div className="content">
             <Articles/>
         </div>
     )

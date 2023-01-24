@@ -1,6 +1,6 @@
 const Reviews = ()=>{
     return (
-        <div className="reviews">
+        <div className="reviews content">
             <div className="sectionTitle">
                 <h4>Reviews </h4>
             </div>

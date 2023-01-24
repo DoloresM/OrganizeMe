@@ -6,7 +6,7 @@ import  { React} from "react";
     
  
     return(
-        <div class="section-body">
+        <div class="section-body content">
             <section>
                 <h5>Partial</h5>
                 <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem 

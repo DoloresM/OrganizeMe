@@ -2,7 +2,7 @@ import BodyPost from "./BodyPost.js"
 
 const BlogSec = ()=>{
     return(
-        <div className="body-blog">
+        <div className="body-blog content">
             <BodyPost/>
             <BodyPost/>
             <BodyPost/>

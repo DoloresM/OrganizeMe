@@ -12,7 +12,7 @@ import BlogSec from "../BlogDwnld/BlogSec.js";
 export default function Body() {
   
     return (
-        <div>
+        <div >
             <Banner/>
             <SectionBody/>
             <SectionBody/>
@@ -20,7 +20,6 @@ export default function Body() {
             <Partners/>
             <Reviews/>
             <ArticleBlogs/>
-            <h4>online!</h4>
         </div>
         
 

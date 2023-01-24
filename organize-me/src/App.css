@@ -20,27 +20,36 @@ html{
 *::before,
 *::after {
 box-sizing: inherit;
+
 }
 
 body{
-  margin: -16px;
   padding: 0;
   color: var(--brown-bean);
-}
-
-.main{
+  /* max-width: 100%; */
   margin: 0;
 }
 
+.main{
+margin: 0;
+}
+
+/* page content margin */
+.content {
+  padding:  0 40px;
+}
+
+
 /* NAVIGATION BAR */
 nav{
-  margin-top: 0;
   height: 12vh;
   background-color: #ffe3e3;
-  padding: 0;
+ 
 }
 nav h1{
     font-family: 'Josefin Sans', cursive;
+    margin: 0;
+
 }
 
 
@@ -48,16 +57,19 @@ nav ul{
   display: flex;
   list-style: none;
   flex-flow: row wrap;
-  justify-content: center;
+  
+  /* background-color: orange; */
+  margin: 0; 
+  padding: 0;
 }
 
 nav ul li{
   flex-basis: 8%;
   color: brown;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  /* padding-top: 1.5rem; */
+  justify-content: space-between; 
+   text-align: center;
+  align-items: left;
+  padding-top: 1.5rem; 
   text-decoration: none;
   font-size: 18px;
 }
@@ -70,8 +82,7 @@ nav ul li:hover{
 
 nav ul li:first-child{
   margin-right: 25rem;
-  padding: 0;
-  font-size: px;
+
 }
 
 nav ul li:last-child{
@@ -82,6 +93,10 @@ nav ul li:last-child{
 .link-react{ /*targets react link component */
   text-decoration: none;
   color: (var(--brown-bean));
+  margin: 0;
+}
+a{
+  margin:0;
 }
 
 /* .link-react:hover {
@@ -91,8 +106,7 @@ nav ul li:last-child{
 .link-react:hover {
   background-color: (var(--brown-bean));
   color: whitesmoke;
-  /* color: (var(--brown-bean)); */
-  /* color: (var(--burgundy)); */
+
 }
 
 
@@ -110,8 +124,8 @@ background: linear-gradient(349deg, rgba(121,9,40,0.8645833333333334) 0%, rgba(2
   width: 100%;
   display: flex;
   flex-flow: row wrap;
-  padding-top: 2rem;
-  padding-left: 3rem;
+  /* padding-top: 2rem;
+  padding-left: 3rem; */
   height: 85vh;
   width: 100%;
   /* margin-bottom: 5rem; */
@@ -200,13 +214,13 @@ position: relative;
 
 .banner{
   margin: 0 auto;
-  /* padding: 0 10rem 0 10rem; */
-  padding: 4rem ;
+
   text-align: center;
   height: 20vh;
   background-color: #FCF6F6;
   color: #49160A;
   /* color: var(--black-bean); */
+
 }
 
 .banner hr{
@@ -261,7 +275,7 @@ position: relative;
   background-color: #F8E5EE;
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
+  /* justify-content: center; */
  
 }
 .body-post{

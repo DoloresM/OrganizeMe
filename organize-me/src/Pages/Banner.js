@@ -6,7 +6,7 @@ import {faYoutube} from "@fortawesome/free-brands-svg-icons";
 
 function Banner(){
     return(
-        <div className="banner">
+        <div className="banner content">
             <h3>How OrganizeMe Works</h3>
                 <hr></hr>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet a mauris quis semper. Nunc nulla ligula, euismod vel eros eu, commodo ornare ipsum.</p>

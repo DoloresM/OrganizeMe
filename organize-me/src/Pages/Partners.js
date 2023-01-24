@@ -4,7 +4,7 @@ import {faYoutube} from "@fortawesome/free-brands-svg-icons";
 
 const Partners = ()=>{
     return(
-        <div style={{backgroundColor: "#790928"}}>
+        <div className="content" style={{backgroundColor: "#790928"}}>
             <div className="sectionTitle">
                 <h4>Partnerships</h4>
                 <span></span>

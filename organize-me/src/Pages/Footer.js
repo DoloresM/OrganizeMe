@@ -1,6 +1,6 @@
 function Footer() {
     return (
-        <footer>
+        <footer className="content">
             <div>Organize Me</div>
             <div>Copyright</div>
             <div>Contact Info</div>

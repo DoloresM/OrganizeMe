@@ -19,11 +19,11 @@ export const BodyContent = createContext();
 function Home()  {
   
   return (
-    <div className="main">
-      <Nav />
-      <Header/>
-      <Body/>
-      <Footer/>
+    <div className="main ">
+        <Nav />
+        <Header/>
+        <Body/>
+        <Footer/>
     </div>
   );
 }
