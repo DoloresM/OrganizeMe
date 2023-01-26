@@ -57,7 +57,7 @@ nav ul{
   display: flex;
   list-style: none;
   flex-flow: row wrap;
-  
+  justify-content: flex-end;
   /* background-color: orange; */
   margin: 0; 
   padding: 0;
@@ -81,12 +81,12 @@ nav ul li:hover{
 
 
 nav ul li:first-child{
-  margin-right: 25rem;
+  margin-right: auto;
 
 }
 
 nav ul li:last-child{
-  margin-left: 25rem;
+  margin-left: 22rem;
 }
 
 
@@ -94,6 +94,8 @@ nav ul li:last-child{
   text-decoration: none;
   color: (var(--brown-bean));
   margin: 0;
+  display: block;
+  padding: 0.5rem;
 }
 a{
   margin:0;
@@ -119,6 +121,7 @@ background: linear-gradient(247deg, rgba(255,210,210,0.592874649859944) 0%, rgba
 background: rgb(121,9,40);
 background: linear-gradient(349deg, rgba(121,9,40,0.8645833333333334) 0%, rgba(255,227,227,1) 55%);
 }
+
 .headings{
   /* margin:0 auto; */
   width: 100%;
@@ -280,15 +283,14 @@ position: relative;
 }
 .body-post{
   /* background-color: (var(--platinum)); */
-  height: 90%;
+  max-height: 90%;
   color: black;
   /* margin: 2rem; */
   background-color: white;
   text-align: center;
   padding: 2rem;
   flex-basis: 30%;
-
- 
+  overflow: hidden;
 }
 
 .body-blog h4 {
@@ -378,9 +380,48 @@ footer div{
 
 
 
+ /* DASHBOARD  */
+ .dash-home h1{
+  margin: 2rem auto;
+  width: 25%;
+  background-color: #3D1308;
 
+ }
+ .dash-selector{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr );
+  grid-template-rows: auto;
+  gap: 5%;
+  /* margin: 2rem; */
+  margin: 2rem 0;
+  background-color: black;
 
+ }
+ .dash-selector .selection{
+  grid-column: span 1;
+  background-color: yellow;
+  width: 100%;
+  min-height: 25rem;
+ }
+  .selection .icon{
+    background-color: gray;
+    min-height: 70%;
+  }
+  .dash-home #button{
+    margin: 2rem auto;
+    width: 25%;
+    height: 3rem;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    padding: 0.5rem;
+    /* background-color: #3D1308;
+    margin: 0 auto;
+    width: 20%; */
+  }
 
+/* REACT'S CSS */
 .App {
   /* text-align: center; */
 }

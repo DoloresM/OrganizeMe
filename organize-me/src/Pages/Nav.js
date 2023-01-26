@@ -12,7 +12,6 @@ function Nav() {
             <li><Link className="link-react" to="/Blog">Blog</Link></li>
             <li><button><Link className="link-react" to="/SignIn">Sign In</Link></button></li>
         </ul>
-        <hr></hr>
       </nav>
     );
   }
