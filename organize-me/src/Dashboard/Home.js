@@ -17,25 +17,25 @@ const Home = ()=>{
                             <div className="icon">
                                 ICON
                             </div> 
-                            <button><Link className="link-services" to="">Task</Link></button>
+                            <button><Link className="link-services" to="/Dashboard/Task/Task">Task</Link></button>
                         </div>
 
                         <div className="selection">
                             <div className="icon">
                                     ICON
                             </div> 
-                            <button><Link className="link-services" to="">Schedule</Link></button>
+                            <button><Link className="link-services" to="/Dashboard/Schedule/Schedule">Schedule</Link></button>
                         </div>
 
                         <div className="selection">
                             <div className="icon">
                                 ICON
                             </div> 
-                            <button><Link className="link-services" to="">Project</Link></button>
+                            <button><Link className="link-services" to="/Dashboard/Project/Project">Project</Link></button>
                         </div>
                     </div>
 
-                    <div id="button"><button><Link className="link-services" to="/Dashboard/Board/Dashboard">View Dashboad</Link></button></div>
+                    <div id="button"><button><Link className="link-services" to="/Dashboard/Dashboard">View Dashboad</Link></button></div>
 
                 </div>
             </div>
