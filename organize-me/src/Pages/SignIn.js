@@ -15,7 +15,7 @@ import Footer from './Footer.js';
     return(
         <>
           <Nav/>
-            <form action="" methhod="POST">
+            <form className="signIn "action="" methhod="POST">
               <div>
                 <label for="firstName">
                   First:
