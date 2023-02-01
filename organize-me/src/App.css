@@ -353,7 +353,7 @@ object-fit: cover;
 
 /* SIGN IN COMPONENT */
 
-.signIn form{
+.signIn {
   padding: 10%;
   border: black solid 2px;
   width: 50%;
@@ -361,11 +361,13 @@ object-fit: cover;
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows:125px 125px;
+ 
 }
 .signIn input{
   display: block;
   padding: 1em;
   border-radius: 30px;
+  background-color: var(--platinum);
 }
 
 footer{
@@ -426,7 +428,7 @@ footer div{
 /* 
   TASK FORM COMPONENT */
 
-  form .taskList {
+  form  {
     background-color: gray;
     color:#211103;
     display: grid;
