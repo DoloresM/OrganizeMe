@@ -351,11 +351,16 @@ object-fit: cover;
   margin: 10px;
 }
 
-.signIn{
+/* SIGN IN COMPONENT */
+
+.signIn form{
   padding: 10%;
   border: black solid 2px;
   width: 50%;
   margin: 0 auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows:125px 125px;
 }
 .signIn input{
   display: block;
@@ -421,32 +426,26 @@ footer div{
 /* 
   TASK FORM COMPONENT */
 
-  form {
+  form .taskList {
     background-color: gray;
     color:#211103;
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows:125px 125px;
-    /* grid-template-columns: 1fr 1fr; */
+    width: 50%;
+    margin: 0 auto;
     gap: 20px;
-    /* grid-template-areas: */
-    /* "title title"
-    "start due"
-    "desc ..."
-    "location requirement"
-    "adding"
-    "alert"; */
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows:auto;
    }
-.task{
-  grid-column: 1/2;
-  background-color: black;
-}
-.tasks{
-  grid-column: 2/3;
-  grid-row: 1/2;
+
+ #text-box {
+display: block;
+   }
+
+form .taskList label {
+  display: block;
 }
 
-form label {
+form .taskList label {
   display: block;
 }
   
