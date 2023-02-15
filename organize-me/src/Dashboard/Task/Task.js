@@ -1,9 +1,10 @@
-
+import DashNav from "../DashNav"
 
 const Task = ()=>{
     return (
         <>
             <div className="content">
+                <DashNav/>
                 <h1>Task</h1>
                 <form name="task" className="taskList">
                     <div className="task"><label for="title">Title: </label><input type="text" name="title"/></div>

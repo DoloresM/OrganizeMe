@@ -62,3 +62,19 @@ form {
 form label {
   display: block;
 }
+
+
+===================UI Design System===================
+
+small font: 0.875rem; // 14 px
+medium font: 1.125rem; 18 px
+
+media quiries screen size --> 640px, 1024px, 1400px 
+"breakpoint-up" - 31:40
+medium - 40em, 
+large - 64em,
+xlarge - 87.5em
+"breakpoint-down" - 31:40
+small - 40em
+medium - 64em
+large - 87.5em
