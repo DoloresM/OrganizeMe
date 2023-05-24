@@ -4,7 +4,7 @@ function Header() {
         
     <header className="main-coloring">
         <div className="headings content">
-            <div>
+            <div className="header-content">
                 <h1>Headings and Title</h1>
                 <h1>Headings And</h1>
                 <h1>Headings </h1>
@@ -17,7 +17,7 @@ function Header() {
                 <button>Action</button>
             </div>
 
-            <div>
+            <div className="header-images">
                 <section id="header-image1"></section>
                 <section id="header-image2"></section>
                 <section id="header-image3"></section>

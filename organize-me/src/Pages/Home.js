@@ -1,6 +1,6 @@
 
 "use client"
-import '../App.css';
+// import '../App.css';
 import {createContext, React} from"react";
 import Nav from './Nav.js';
 import Header from './Header.js';

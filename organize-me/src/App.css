@@ -542,6 +542,15 @@ nav .logo  img{
   display: none;
 }
 
+@media screen and (max-width: 945px){
+  .home-nav, .header-images{
+    display:none;
+  }
+  .headings{
+    display: block;
+  }
+
+}
 
 
 /* @media screen and (min-width: 64em){
