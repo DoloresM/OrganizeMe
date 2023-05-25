@@ -2,17 +2,24 @@ import { Link } from "react-router-dom";
 
 function Nav() {
     return (
-      <nav className="home-nav" >   
-        <ul className="content">
-            <li>
-                <h1><Link className="link-react" to="/">Organize Me</Link></h1>
-            </li>
-            <li><Link className="link-react" to="/Services">Services</Link></li>
-            <li><Link className="link-react" to="/Pricing">Pricing</Link></li>
-            <li><Link className="link-react" to="/Blog">Blog</Link></li>
-            <li><button><Link className="link-react" to="/SignIn">Sign In</Link></button></li>
-        </ul>
-      </nav>
+      <div>
+        <nav className="home-nav" >   
+          <ul className="content">
+              <li>
+                  <h1><Link className="nav-links" to="/">Organize Me ++ </Link></h1>
+              </li>
+              <li><Link className="nav-links" to="/Services">Services</Link></li>
+              <li><Link className="nav-links " to="/Pricing">Pricing</Link></li>
+              <li><Link className="nav-links" to="/Blog">Blog</Link></li>
+              <li><button><Link className="nav-links" to="/SignIn"> <span>Sign In</span></Link></button></li>
+          </ul>
+          
+        </nav>
+
+
+        
+      </div>
+
     );
   }
   

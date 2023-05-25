@@ -70,7 +70,7 @@ margin: 0;
 
 /* NAVIGATION BAR */
 .home-nav{
-  height: 12vh;
+  height: 80px;
   background-color: #ffe3e3;
  
 }
@@ -80,26 +80,27 @@ nav h1{
 
 }
 
-
 nav ul{
   display: flex;
   list-style: none;
-  flex-flow: row wrap;
-  justify-content: flex-end;
-  /* background-color: orange; */
+  flex-flow: row ;
+  height: 70px;
   margin: 0; 
   padding: 0;
+
 }
 
 nav ul li{
-  flex-basis: 8%;
+  /* flex-basis: 8%; */
   color: brown;
   justify-content: space-between; 
    text-align: center;
-  align-items: left;
-  padding-top: 1.5rem; 
+   align-content: center;
+  /* align-items: left; */
+  padding-top: 1rem; 
   text-decoration: none;
   font-size: 18px;
+  
 }
 
 nav ul li:hover{
@@ -110,6 +111,9 @@ nav ul li:hover{
 
 nav ul li:first-child{
   margin-right: auto;
+  
+text-align: left;
+
 
 }
 
@@ -117,8 +121,16 @@ nav ul li:last-child{
   margin-left: 22rem;
 }
 
+nav ul li span{
+  color: brown;
+}
+nav ul li span:hover {
+  color:brown;
+}
 
-.link-react{ /*targets react link component */
+
+
+.nav-links{ /*targets react link component */
   text-decoration: none;
   color: (var(--brown-bean));
   margin: 0;
@@ -135,9 +147,18 @@ a{
 
 .link-react:hover {
   background-color: (var(--brown-bean));
-  color: whitesmoke;
-
 }
+nav ul li button {
+  background-color: #ffe3e3; 
+  border-radius: 25px;
+  border: 1px solid brown;
+}
+nav ul li button:hover {
+  color: brown;
+}
+
+
+
 
 
 
