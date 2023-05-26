@@ -609,8 +609,36 @@ BLOG PAGE CSS
 
  .blog-header{
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
   height: 89vh;
-  background-color: #FCF6F6;;
+  background-color: #FCF6F6;
+ }
+
+ .main-blog{
+  width: 62%;
+  background-color: gray;
+  border-radius: 20px;
+  margin: 1rem;
+ }
+
+ .main-blog-aside{
+  width: 30%;
+  background-color: gray;
+  border-radius: 20px;
+  margin: 1rem;
+ }
+ .main-blog-sub{
+  width: 30%;
+  background-color: gray;
+  border-radius: 20px;
+  margin: 1rem;
+ }
+
+ .blog-header h3{
+  font-size: 2rem;
+  margin: 1rem;
  }
 
 
