@@ -4,7 +4,7 @@ import Nav from './Nav.js';
 import BlogHeader from './BlogHeader.js'
 import BlogBody from './BlogBody.js'
 
-function Blog() {
+function BlogPage() {
     return (
         <React.Fragment>
             <Nav/>
@@ -15,4 +15,4 @@ function Blog() {
         
     );
   }
-  export default Blog;
+  export default BlogPage;

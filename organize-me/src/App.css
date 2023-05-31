@@ -617,20 +617,20 @@ BLOG PAGE CSS
  }
 
  .main-blog{
-  width: 62%;
+  flex-basis: 62%;
   background-color: gray;
   border-radius: 20px;
   margin: 1rem;
  }
 
  .main-blog-aside{
-  width: 30%;
+  flex-basis: 30%;
   background-color: gray;
   border-radius: 20px;
   margin: 1rem;
  }
  .main-blog-sub{
-  width: 30%;
+  flex-basis: 30%;
   background-color: gray;
   border-radius: 20px;
   margin: 1rem;

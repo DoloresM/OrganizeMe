@@ -6,9 +6,6 @@ function BlogHeader (){
             <div className="main-blog-sub"><h3>sub</h3> </div>
             <div className="main-blog-sub"><h3>sub</h3></div>
             <div className="main-blog-sub"><h3>sub</h3></div>
-   
-           
-
         </div>
     )
 

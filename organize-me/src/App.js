@@ -4,7 +4,7 @@ import logo from './logo.svg';
 import Home from "./Pages/Home.js";
 import Services from "./Pages/Services.js";
 import Pricing from "./Pages/Pricing.js";
-import Blog from "./Pages/Blog.js";
+import Blog from "./Pages/BlogPage.js";
 import SignIn from "./Pages/SignIn.js";
 import DashHome from "./Dashboard/Home.js";
 import Dashboard from "./Dashboard/Dashboard.js";
