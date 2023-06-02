@@ -1,4 +1,4 @@
-import BodyPost from "./BodyPost.js.js"
+import BodyPost from "./BodyPost.js"
 
 const BlogSec = ()=>{
     return(

@@ -4,7 +4,7 @@ import logo from './logo.svg';
 import Home from "./Pages/Home.js";
 import Services from "./Pages/Services.js";
 import Pricing from "./Pages/Pricing.js";
-import Blog from "./Pages/BlogPage.js";
+import BlogPage from "./Pages/BlogPage.js";
 import SignIn from "./Pages/SignIn.js";
 import DashHome from "./Dashboard/Home.js";
 import Dashboard from "./Dashboard/Dashboard.js";
@@ -21,7 +21,7 @@ export default function App() {
       <Route path="/services" element={<Services/>}></Route>
       <Route path="/pricing" element={<Pricing/>}></Route>
       <Route path="/services" element={<Services/>}></Route>
-      <Route path="/blog" element={<Blog/>}></Route>s
+      <Route path="/blog" element={<BlogPage/>}></Route>s
       <Route path="/signin" element={<SignIn/>}></Route>
       <Route exact path="/Dashboard/Home" element={<DashHome/>}></Route>
       <Route exact path="/Dashboard/Dashboard" element={<Dashboard/>}></Route>

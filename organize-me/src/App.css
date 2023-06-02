@@ -185,21 +185,33 @@ background: linear-gradient(349deg, rgba(121,9,40,0.8645833333333334) 0%, rgba(2
   border-radius: 1px solid black;
   margin: 0;
 }
-header{
-  /* display: flex;
-  flex-flow: row wrap;
-  padding-top: 2rem;
-  height: 75vh;
-  width: 100%;
-  margin-bottom: 5rem;
-  border-radius: 1px solid black; */
- 
+
+
+.header-content h1{
+  font-size: 2rem;
 }
 
-header h1{
-  margin-bottom: 1rem;
-  font-size: 60px;
+@media screen and (min-width: 520px){
+  .header-content h1{
+    font-size: 4rem;
+  }
 }
+
+/* @media screen and (max-width: 945px){
+  .home-nav, .header-images{
+    display:none;
+  }
+  .headings{
+    display: block;
+  }
+
+} */
+
+/* media and screen(max-width: 520px){
+  .header-content h1{
+
+  }
+} */
 
 header div{
   flex-basis: 50%;
