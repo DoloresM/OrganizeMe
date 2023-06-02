@@ -188,12 +188,18 @@ background: linear-gradient(349deg, rgba(121,9,40,0.8645833333333334) 0%, rgba(2
 
 
 .header-content h1{
-  font-size: 2rem;
+  font-size: 4rem;
 }
 
-@media screen and (min-width: 520px){
+@media screen and (max-width: 550px){
   .header-content h1{
-    font-size: 4rem;
+    font-size: 2rem;
+  }
+  .header-content button {
+    margin-top: 1.5rem;
+    display: block;
+    width: 90%;
+    height: 3rem;
   }
 }
 
