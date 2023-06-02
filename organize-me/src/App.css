@@ -187,8 +187,9 @@ background: linear-gradient(349deg, rgba(121,9,40,0.8645833333333334) 0%, rgba(2
 }
 
 
-.header-content h1{
-  font-size: 4rem;
+.header-content h2{
+  font-size: 3rem;
+  margin:0.5rem;
 }
 
 @media screen and (max-width: 550px){
