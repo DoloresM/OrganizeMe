@@ -5,7 +5,7 @@ import SectionBody from "./SectionBody.js";
 import Partners from "./Partners.js";
 import Reviews from "./Review.js";
 import ArticleBlogs from "./ArticleBlogs.js";
-import BlogSec from "../BlogDwnld/BlogSec.js";
+import BlogSec from "./MainBody/MainBodyBlog/BlogSec.js";
 
 
 
