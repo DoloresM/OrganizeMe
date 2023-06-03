@@ -1,11 +1,11 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import logo from './logo.svg';
 // import './App.css';
-import Home from "./Pages/Home.js";
-import Services from "./Pages/Services.js";
-import Pricing from "./Pages/Pricing.js";
-import BlogPage from "./Pages/BlogPage.js";
-import SignIn from "./Pages/SignIn.js";
+import Home from "./Pages/MainHome/Home.js";
+import Services from "./Pages/ServicesPage/Services.js";
+import Pricing from "./Pages/PricingPage/Pricing.js";
+import BlogPage from "./Pages/BlogPage/BlogPage.js";
+import SignIn from "./Pages/SignIn/SignIn.js";
 import DashHome from "./Dashboard/Home.js";
 import Dashboard from "./Dashboard/Dashboard.js";
 import Task from "./Dashboard/Task/Task.js";

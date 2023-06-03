@@ -1,5 +1,5 @@
 import {Link} from "react-router-dom";
-import Nav from "../Pages/Nav.js";
+import Nav from "../Pages/MainHome/MainHeader/Nav.js";
 
 const Home = ()=>{
     return(

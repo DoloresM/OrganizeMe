@@ -1,20 +1,10 @@
 
 "use client"
 // import '../App.css';
-import {createContext, React} from"react";
-import Nav from './Nav.js';
-import Header from './Header.js';
+import Nav from './MainHeader/Nav.js';
+import Header from '.MainHeader/Header.js';
 import Body from "./Body.js";
-import Footer from "./Footer.js";
-import products from "../AppContent";
-
-
-export const BodyContent = createContext();
-
-
-
-
-
+import Footer from "./Footer/Footer.js";
 
 function Home()  {
   

@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css';
-import Nav from './Nav.js';
+import Nav from './MainHome/MainHeader/Nav.js';
 import BlogHeader from './BlogHeader.js'
 import BlogBody from './BlogBody.js'
 
