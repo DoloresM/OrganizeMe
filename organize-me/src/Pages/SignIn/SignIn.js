@@ -1,8 +1,8 @@
 import React, {useState,useEffect} from "react";
 import {Link} from "react-router-dom";
-import Nav from './Nav.js';
+import Nav from '../MainHome/MainHeader/Nav.js';
 // import DashHome from "./Dashboard/DashHome.js"
-import Footer from './Footer.js';
+import Footer from '../MainHome/Footer/Footer.js';
 
 
 const SignIn = ()=>{

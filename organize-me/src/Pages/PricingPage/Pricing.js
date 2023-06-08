@@ -1,5 +1,5 @@
-import '../App.css';
-import Nav from './Nav.js';
+import '../../App.css';
+import Nav from '../MainHome/MainHeader/Nav.js';
 
 function Pricing() {
     return (

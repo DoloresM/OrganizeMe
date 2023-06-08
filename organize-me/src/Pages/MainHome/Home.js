@@ -2,7 +2,7 @@
 "use client"
 // import '../App.css';
 import Nav from './MainHeader/Nav.js';
-import Header from '.MainHeader/Header.js';
+import Header from './MainHeader/Header.js';
 import Body from "./Body.js";
 import Footer from "./Footer/Footer.js";
 

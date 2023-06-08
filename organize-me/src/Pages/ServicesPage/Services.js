@@ -1,6 +1,6 @@
-import '../App.css';
-import Nav from './Nav.js';
-import Header from "./Header.js";
+import '../../App.css';
+import Nav from '../MainHome/MainHeader/Nav.js';
+import Header from "../MainHome/MainHeader/Header.js";
 
 function Services() {
     return (
