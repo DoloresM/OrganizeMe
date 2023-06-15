@@ -7,7 +7,7 @@ import Footer from '../MainHome/Footer/Footer.js';
 
 const SignIn = ()=>{
 
-const [profile, setProfile] = useState([]);
+const [profile, setProfile] = useState({});
 
 
 const handleProfile = (event)=>{
@@ -15,8 +15,12 @@ const handleProfile = (event)=>{
   // let value = event.target.value
   // profile[name] = value;
   // setProfile(profile)
-  console.log(event.target.value)
-  console.log(event.target.name)
+  // console.log(event.target.value);
+  // console.log(event.target.name);
+
+  // BUILDING THE STATE OF THE SIGN IN PROFILE VALUES FROM THE INPUT -- receiving errors w/ implementing code below;
+  setProfile(profile.name = event.target.value);
+  console.log(profile);
   };
 
 //CAPTURE VALUE & RETURN COMPONENT
