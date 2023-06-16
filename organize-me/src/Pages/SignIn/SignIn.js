@@ -11,24 +11,17 @@ const [profile, setProfile] = useState({});
 
 
 const handleProfile = (event)=>{
-  // let name = event.target.name;
-  // let value = event.target.value
-  // profile[name] = value;
-  // setProfile(profile)
-  // console.log(event.target.value);
-  // console.log(event.target.name);
+  let name = event.target.value
+  console.log(name);
+  setProfile(profile.name = name)
+  console.log(profile)
 
-  // BUILDING THE STATE OF THE SIGN IN PROFILE VALUES FROM THE INPUT -- receiving errors w/ implementing code below;
-  setProfile(profile.name = event.target.value);
-  console.log(profile);
   };
 
 //CAPTURE VALUE & RETURN COMPONENT
 const handleSubmit = (event)=>{
   event.preventDefault()
-//  console.log( ...event.currentTarget);
-// console.log(event.target.value)
-//  console.log(event)
+
 }
 
 
