@@ -7,23 +7,29 @@ import Footer from '../MainHome/Footer/Footer.js';
 
 const SignIn = ()=>{
 
-const [profile, setProfile] = useState({});
+const [profile, setProfile] = useState();
 
 
 const handleProfile = (event)=>{
-  let name = event.target.value
-  console.log(name);
-  setProfile(profile.name = name)
+  let {name, value} = event.target;
+  setProfile(existingValues => ({
+    // Retain the existing values
+    ...existingValues,
+    // update the firstName
+    name:value
+  })) 
+  console.log()
+   };
   console.log(profile)
 
-  };
+
+
 
 //CAPTURE VALUE & RETURN COMPONENT
 const handleSubmit = (event)=>{
   event.preventDefault()
 
 }
-
 
 
 
