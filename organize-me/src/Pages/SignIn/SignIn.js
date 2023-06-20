@@ -4,40 +4,29 @@ import Nav from '../MainHome/MainHeader/Nav.js';
 // import DashHome from "./Dashboard/DashHome.js"
 import Footer from '../MainHome/Footer/Footer.js';
 
-
 const SignIn = ()=>{
-
 const [profile, setProfile] = useState();
 
 
 const handleProfile = (event)=>{
   let {name, value} = event.target;
+ 
   setProfile(existingValues => ({
     // Retain the existing values
     ...existingValues,
-    // update the firstName
-    name:value
+    // update the profile object w/ event.target "name:value" as properties
+    [name]:value
   })) 
-  console.log()
    };
+
   console.log(profile)
-
-
-
-
-//CAPTURE VALUE & RETURN COMPONENT
-const handleSubmit = (event)=>{
-  event.preventDefault()
-
-}
-
 
 
     return(
         <>
           <Nav/>
           <h1>Create Your Account! </h1>
-            <form  onSubmit={e => {handleSubmit(e)}} className="signIn "action="" methhod="POST" >
+            <form   className="signIn "action="" methhod="POST" >
               <div> <label for="firstName">First:<input id="one" type="text" name="firstName" onChange={handleProfile}/> </label></div>
               <div> <label for="lastName">Last:<input id="two" type="text" name="lastName" onChange={handleProfile} /></label> </div>
               <div><label for="userName"> Username: <input type="text" name="userName" onChange={handleProfile}/></label></div>
@@ -58,7 +47,7 @@ const handleSubmit = (event)=>{
               <div>
                 <label for="birthDate">
                 Date of Birth:
-                <input type="date" name="birthDate" onBlur={handleProfile}/>
+                {/* <input type="date" name="birthDate" onBlur={handleProfile}/> */}
                 </label>
               </div>
               <div>
